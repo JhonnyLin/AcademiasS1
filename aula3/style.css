@@ -1,0 +1,14 @@
+#sec-1{
+    display: flex;
+}
+#di-2{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+#di-1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}

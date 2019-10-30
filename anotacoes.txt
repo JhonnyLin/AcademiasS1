@@ -1,0 +1,21 @@
+warframe >> desenho do site (manual mesmo/escopo);
+
+div é  uma caixa(exite um modelo de caixa):
+    1-content(conteudo);
+    2-padding(espaçamento);
+    3-border(borda);
+    4-margin(margem);
+
+    Vem empilhada porque vem com display block(bloco), isso é padrão. 
+        Pra manipular se  usa display: flex;
+        Em conjunto com os modelodores da caixa;
+
+    Lembrar que tem que zerar esses modeladores, para ocupar todos od espaços;
+
+    unidade de medidas:
+        px > elemntos;
+        pt > letra;
+        relativa( %(porcentagem), rem(), en(), wh () )   
+
+    margin: 0 auto; :
+        serve pra centralizar a div dentro do pai;
