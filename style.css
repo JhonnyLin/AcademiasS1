@@ -1,0 +1,18 @@
+nav{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: red;
+}
+
+h1{
+    color: white;
+    /* colocar as letras maiusculas pq se for no codico vai contra as boas praticas e vai achar q é uma sigla */
+    text-transform: uppercase;
+}
+
+ul{
+    /* tirar estilo */
+    list-style: none;
+}
