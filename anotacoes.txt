@@ -19,3 +19,7 @@ div é  uma caixa(exite um modelo de caixa):
 
     margin: 0 auto; :
         serve pra centralizar a div dentro do pai;
+
+grid >> grade
+
+    

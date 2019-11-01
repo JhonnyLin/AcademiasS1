@@ -1,0 +1,12 @@
+https://www.flaticon.com >> para pegar icones gratuitos
+
+Grid: começa sempre pensando na menor tela possivel,
+ nesse caso so vai ter uma coluna por isso so tem um 
+ nome 'navbar'  e o tamanho 100%.
+
+Unidade de mendias absolutas: 
+    o tamanho do elemnto vai ser aquele idependente do tamanho do pai.
+
+Unidade de medias relativas:
+
+RGB: Cores primarias(vermelho, verde e azul);

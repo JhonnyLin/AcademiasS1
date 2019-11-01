@@ -1,0 +1,112 @@
+body{
+    display: grid;
+    /* definindo as colunas */
+    /* nomes das colunas não importam porque ela so é o nome do espaço */
+    grid-template-areas: 'navbar'
+                         'banner'
+                         'main'
+                         'section'
+                         'contact'
+                         'footer';
+    /* tamanho da coluna */
+    grid-template-columns: 100%;
+    /* zerando a margem e colocando automatica pra centralizar */
+    margin: 0 auto;
+
+}
+
+nav{
+    /* Sua area é a navbar */
+    grid-area: navbar;
+    display: flex;
+    align-items: center;
+    /* altura navbar */
+    height: 85px;
+    /* colocar o espaço entre os dois elemntos */
+    justify-content: space-between;
+}
+nav img{
+    width: 85px;
+    height: 100%;g
+}
+
+nav a{
+    /* tirando a decoração da ancora */
+    text-decoration: none;
+    /* colocar em caixa alta */
+    text-transform: uppercase;
+    font-size: 15px;
+    /* peso ou seja pra colocar em negrito */
+    font-weight:bold ;
+    /* font da letra */
+    font-family: 'McLaren', cursive;
+}
+
+/* pseudo seletor */
+/* pega os elementos filhos de nav e seleciona por ordem que aparece */
+nav div:nth-child(2){
+    /*faz com que desapareça  */
+    display: none;
+}
+
+nav div:nth-child(3){
+    display: flex;
+    /* colocar em linha */
+    flex-direction: row;
+    /* dividir os espaço ao redor dos elementos */
+    justify-content: space-around;
+    width: 400px;
+    height: 20px;
+    
+}
+
+header{
+    grid-area: banner;
+    background-image: url(../img/ricardin.jpg);
+    /*  */
+    background-size: cover;
+    /*  */
+    background-position: center;
+    height: 600px;
+}
+/* =============RESPONSIVO============= */
+/* midia query quando for menor */
+@media(max-width: 800px){
+    /* segundo elemento da minha nav */
+    nav div:nth-child(2){
+        /* coloca o elemto em linha */
+        display: inline-block;
+        /* com altura de */
+        width: 55px;
+    }
+    nav div:nth-child(3){
+        display: none;
+
+    }
+}
+.icon{
+    width: 55%;
+}
+/* ================= SECTION GERAL ================== */
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+/* ================== CABEÇALHO ===================== */
+#cabecalho h1, #cabecalho h2{
+    text-align: center;
+    color: blueviolet;
+}
+.titulo{
+    /* transforma para caixa alta */
+    text-transform: uppercase;
+    /* espaçamento entre as letras */
+    letter-spacing: 4px;
+    font-family: 'McLaren', cursive;
+}
+.subtitulo{
+    width: 350px;
+}
